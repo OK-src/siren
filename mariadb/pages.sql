@@ -1,0 +1,6 @@
+CREATE TABLE pages(
+	site INT,
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	url TINYTEXT,
+	priority FLOAT(2,1)
+) ENGINE = INNODB;
